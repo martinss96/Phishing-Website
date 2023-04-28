@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Monda', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    color: aliceblue;
+
+}
+
+
+body{
+    background-color: grey;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 15%;
+    border-bottom: 1px solid;
+    transition: all 45. ease;
+    backdrop-filter: blur(8px);
+    background-color: #010708;
+
+
+
+
+}
+
+.navlist{
+    display: flex;
+
+}
+
+.navlist a{
+    font-weight: 400;
+    margin: 0 25px;
+    transition: all .45 ease;;
+    
+
+}
+
+#menu-icon{
+    font-size: 30px;
+    color: black;
+    cursor:pointer;
+    margin-left: 25px;
+    display: none;
+
+
+
+}
+
+
+section{
+    padding: 160px 15% 120px;
+
+}
+
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background:rgba(0,0,0, .7) url(https://compuvision.biz/wp-content/uploads/2020/04/cyber-security-email-phishing-covid-19.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    border-bottom: solid cornsilk 1px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    
+}
+
+.home-text h1{
+    list-style: 1.1;
+    margin: 0 0 8px;
+    font-size: 45px
+
+
+
+}
+
+
+.home-text p{
+    line-height: 1.8;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+
+.button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #010708;
+    border-radius: 15px;
+    border: solid cornsilk 2px;
+
+}
+
+.phishing-sim{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    background:rgba(0,0,0, .7) url(https://compuvision.biz/wp-content/uploads/2020/04/cyber-security-email-phishing-covid-19.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    border-bottom: solid cornsilk 1px;
+
+
+}
+
+
+.phis-img img{
+    max-width: 460px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+    border-bottom: solid cornsilk 1px;
+
+
+
+}
+
+.phis-text h2{
+    line-height: 1;
+    font-size: 30px;
+
+
+}
+
+.phis-text h3{
+    line-height: 1;
+    margin: 15px 0 30px;
+}
+
+.phis-text p{
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+
+}
+
+
+
+
+.sus-sim, .val-sim, .secure-sim,  .del-sim{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    background:rgba(0,0,0, .7) url(https://compuvision.biz/wp-content/uploads/2020/04/cyber-security-email-phishing-covid-19.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    border-bottom: solid cornsilk 1px;
+    height: 950px;
+
+
+}
+
+
+.sus-img img, .val-img img, .secure-img img, .del-img img{
+    max-width: 590px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+    border-bottom: solid cornsilk 1px;
+
+
+
+}
+
+.sus-text h2, .val-text h2, .secure-text h2, .del-text h2 {
+    line-height: 1;
+    font-size: 30px;
+
+
+}
+
+.sus-text h3, .val-text h3, .secure-text h3, .del-text h3{
+    line-height: 1;
+    margin: 15px 0 30px;
+}
+
+.sus-text p, .val-text p, .secure-text p, .del-text p{
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+
+
+}
+
+.box{
+    padding: 35px 45px;
+    background-color: #010708;
+    border-radius: 10px;
+    border: solid cornsilk 2px;
+    transition: all .45s ease;
+    
+}
+
+.box h3{
+    margin-bottom: 15px;
+
+}
+
+.box p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.read{
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: #010708;
+    border: solid cornsilk 1px;
+    
+}
+
+
+
+.stay-safe{
+
+    background:rgba(0,0,0, .7) url(https://compuvision.biz/wp-content/uploads/2020/04/cyber-security-email-phishing-covid-19.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    border-bottom: solid cornsilk 1px;
+}
+
+.stay-safe h2{
+    font-size: 30px;
+}
+
+
+
+.feedback{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+    background:rgba(0,0,0, .7) url(https://compuvision.biz/wp-content/uploads/2020/04/cyber-security-email-phishing-covid-19.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    border-bottom: solid cornsilk 1px;
+
+
+}
+
+
+.feedback-text h2{
+    line-height: 1;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+
+
+
+    
+}
+
+.feedback-text p{
+    line-height: 1.8;
+    margin-bottom: 30px;
+
+}
+
+.feedback-form{
+    position: relative;
+}
+
+
+.feedback-form form input, form textarea{
+    width: 100%;
+    padding: 14px;
+    background-color: #010708;
+    border: solid cornsilk 2px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.feedback-form textarea{
+    resize: none;
+    height: 200px;
+}
+
+.feedback-form .submit{
+    display: inline-block;
+    width: 200px;
+    transition: all .45 ease;
+}
+
+
+.footer{
+    padding: 20px 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: #010708;
+}
+
+
+
+
+
+
+
+
+
+
+
